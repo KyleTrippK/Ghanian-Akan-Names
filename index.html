@@ -9,21 +9,110 @@
 <body>
     <div class="class" style="width: 50%; margin: auto;">
         <fieldset>
-            <legend>Enter Birthday: </legend>
-                <form action="" id="birthday">
-                    <div class="birthday">
-                        <label for="birthday">Date of Birth:</label></br>
-                        <input type="date" id="bdate" name="bdate">
+            <legend>Enter Birthday:</legend>
+                <form>
+                    <div class="birthdate">
+                        <label for="birthdate">Date:<span class="text-danger">*</span></label>
+                        <input type="text" id="bdate" name="bdate">
+                        <label for="birthdate">Month:<span class="text-danger">*</span></label>
+                        <input type="text" id="bdat" name="bdate">
+                        <label for="birthdate">Year:<span class="text-danger">*</span></label>
+                        <input type="text" id="bdae" name="bdate">
                     </div>
                     <div id="genders">
-                        <input type="radio" name="gender" value="male"> Male </br>
-                        <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="male" required> Male </br>
+                        <input type="radio" name="gender" value="female" required> Female
                     </div>
                     <div class="btn" style="margin-left: 20%;">
-                        <input type="submit" value="Check Akan Name">
+                        <input type="submit" id="submit" value="Check Akan Name" onclick="akanGenerate();">
                     </div>
                 </form>
+                <!-- <script>
+                    var maleAkan = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
+                    var femaleAkan = ['Akosua', 'Adwoa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
+                    const submit = document.querySelector('#submit');
+                    function akanGenerate(){
+                        // checking for the gender
+                        var genderRadio = document.querySelectorAll('input[name="gender"]');
+                        let ChosenValue;
+                        for (const chosenGender of genderRadio) {
+                            if(chosenGender.checked) {
+                                chosenValue = chosenGender.value;
+                                break;
+                            }
+                        }
+                        // Checking for the persons day of birth
+
+
+
+                        // var inputDate = document.getElementById('bdate').value;
+                        // var inputMonth= document.getElementById('bdat').value;
+                        // var inputYear = document.getElementById('bdae').value;
+                        // var century = parseInt(inputYear.slice(0, 2));
+                        // if(inputDate<=0 || inputDate>30){
+                        //     alert("WDate");
+                        //     } 
+                        //     else if(inputMonth<=0 || inputMonth>12){
+                        //     alert("Enter the correct Month");
+                        //     }
+                        //     else if(inputYear<999 || inputYear > new Date().getFullYear()){
+                        //     alert("Enter the correct year");
+                        //     }
+                        //     else {
+                        //     alert("working fine");
+                        //     var trueBirthdayIndex = parseInt((((century/4) - 2*century-1)+((5*inputYear/4))+((26*(inputMonth+1)/10))+inputDate)%7);
+                        //     alert(trueBirthdayIndex);
+                        //     }
+
+
+
+
+                        // end 
+                        if (chosenValue == 'male'){
+                            // var birthday = prompt('Enter the date:');
+                            switch(trueBirthdayIndex){
+                                case '0': alert(maleAkan[0]);
+                                break;
+                                case '1': alert(maleAkan[1]);
+                                break;
+                                case '2': alert(maleAkan[2]);
+                                break;
+                                case '3': alert(maleAkan[3]);
+                                break;
+                                case '4': alert(maleAkan[4]);
+                                break;
+                                case '5': alert(maleAkan[5]);
+                                break;
+                                case '6': alert(maleAkan[6]);
+                                break;
+                                default: alert('Choose a valid gender');
+                            }
+                            alert("Ending switch case 1");
+                        }
+                        else{
+                            var birthday = prompt("Enter the date:");
+                            switch(trueBirthdayIndex){
+                                case '0': alert(femaleAkan[0]);
+                                break;
+                                case '1': alert(femaleAkan[1]);
+                                break;
+                                case '2': alert(femaleAkan[2]);
+                                break;
+                                case '3': alert(femaleAkan[3]);
+                                break;
+                                case '4': alert(femaleAkan[4]);
+                                break;
+                                case '5': alert(femaleAkan[5]);
+                                break;
+                                case '6': alert(femaleAkan[6]);
+                                break;
+                                default: alert('Choose a valid gender');
+                            }
+                        }
+                    }
+                </script> -->
         </fieldset>
     </div>
 </body>
+<script src="./js/index.js"></script>
 </html>
