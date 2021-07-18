@@ -18,7 +18,7 @@ function akanGenerate(){
     }
         // Checking for the persons day of birth
         if(inputDate<=0 || inputDate>30){
-            alert("WDate");
+            alert("Enter the Correct date");
             } 
             else if(inputMonth<=0 || inputMonth>12){
             alert("Enter the correct Month");
@@ -32,48 +32,48 @@ function akanGenerate(){
                 if (chosenValue == 'male'){
                     // var birthday = prompt('Enter the date:');
                     if (trueBirthdayIndex == 0){
-                        alert(maleAkan[0] + " You were born on "+days[0])
+                        alert(maleAkan[0] + " and you were born on "+days[0])
                     }
                     else if (trueBirthdayIndex == 1){
-                        alert(maleAkan[1] + " You were born on "+days[1])
+                        alert(maleAkan[1] + " and you were born on "+days[1])
                     }
                     else if (trueBirthdayIndex == 2){
-                        alert(maleAkan[2] + " You were born on "+days[2])
+                        alert(maleAkan[2] + " and you were born on "+days[2])
                     }
                     else if (trueBirthdayIndex == 3){
-                        alert(maleAkan[3] + " You were born on "+days[3])
+                        alert(maleAkan[3] + " and you were born on "+days[3])
                     }
                     else if (trueBirthdayIndex == 4){
-                        alert(maleAkan[4] + " You were born on "+days[4])
+                        alert(maleAkan[4] + " and you were born on "+days[4])
                     }
                     else if (trueBirthdayIndex == 5){
                         alert(maleAkan[5] + " You were born on "+days[5])
                     }
                     else if (trueBirthdayIndex == 6){
-                        alert(maleAkan[6] + " You were born on "+days[6])
+                        alert(maleAkan[6] + " and you were born on "+days[6])
                     }
                 }
                 else{
                     if (trueBirthdayIndex == 0){
-                        alert(femaleAkan[0] + " You were born on "+days[0])
+                        alert(femaleAkan[0] + " and you were born on "+days[0])
                     }
                     else if (trueBirthdayIndex == 1){
-                        alert(femaleAkan[1] + " You were born on "+days[1])
+                        alert(femaleAkan[1] + " and you were born on "+days[1])
                     }
                     else if (trueBirthdayIndex == 2){
-                        alert(femaleAkan[2] + " You were born on "+days[2])
+                        alert(femaleAkan[2] + " and you were born on "+days[2])
                     }
                     else if (trueBirthdayIndex == 3){
-                        alert(femaleAkan[3] + " You were born on "+days[3])
+                        alert(femaleAkan[3] + " and you were born on "+days[3])
                     }
                     else if (trueBirthdayIndex == 4){
-                        alert(femaleAkan[4] + " You were born on "+days[4])
+                        alert(femaleAkan[4] + " and you were born on "+days[4])
                     }
                     else if (trueBirthdayIndex == 5){
-                        alert(femaleAkan[5] + " You were born on "+days[5])
+                        alert(femaleAkan[5] + " and you were born on "+days[5])
                     }
                     else if(trueBirthdayIndex == 6){
-                        alert(femaleAkan[6] + " You were born on "+days[6])
+                        alert(femaleAkan[6] + " and you were born on "+days[6])
                     }
                 }
             }

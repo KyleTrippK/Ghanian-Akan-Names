@@ -12,13 +12,19 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
 }
-
+#midcontent{
+    margin: 20px 20px 20px 20px;
+}
+.fisher{
+    margin-left: 20%;
+    border: solid 4px yellow;
+}
 #fisherman {
-    margin-left:25%;
-    background-image: url("../Assets/culture-1475557__340.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 400px;
+    background-image: url("../Assets/89-892893_gye-nyame-akan-symbols-and-meaning-hd-png.png");
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* height: 400px; */
+    /* margin-left: 30px; */
 
 }
 #maintext{
@@ -26,6 +32,8 @@ body{
     font-family: 'Pangolin', cursive;
     font-family: 'Saira Semi Condensed', sans-serif;
     font-weight: bold;
+    /* margin-top: 10%; */
+    font-size: 20px;
 }
 .main-form{
     width: 70%;
@@ -45,7 +53,9 @@ body{
     height: 600px;
 }
 #submit{
+    background-color:yellow;
     padding: 5px;
+    color: black;
 }
 #footer{
     font-family: 'Dancing Script', cursive;
