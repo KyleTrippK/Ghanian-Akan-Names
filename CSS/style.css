@@ -40,16 +40,17 @@ body{
 }
 #fingerprint{
     width: 30%;
-    margin-left: 15%;
+    margin-top: 30px;
+    margin-left: 10%;
     /* height: 10%; */
 }
 #finger{
-    height: 70%;
+    height: 450px;
 
 }
 #maindiv{
     box-sizing: border-box;
-    border: solid red 2px;
+    border: solid red 4px;
     height: 600px;
 }
 #submit{

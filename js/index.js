@@ -18,13 +18,13 @@ function akanGenerate(){
         }
         // Checking for the persons day of birth
         if(inputDate<=0 || inputDate>30){
-            alert("Enter the Correct date");
+            alert("Please enter the Correct date");
             } 
             else if(inputMonth<=0 || inputMonth>12){
-            alert("Enter the correct Month");
+            alert("Please enter the correct Month");
             }
             else if(inputYear<999 || inputYear > new Date().getFullYear()){
-            alert("Enter the correct year");
+            alert("please enter the correct year");
             }
             else {
             var trueBirthdayIndex = parseInt((((century/4) - 2*century-1)+((5*inputYear/4))+((26*(inputMonth+1)/10))+inputDate)%7);
