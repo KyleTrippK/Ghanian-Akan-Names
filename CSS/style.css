@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(6, 6, 41);
+}
+
+#bigtext{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pangolin', cursive;
+    font-size: 58px;
+}
+#africa {
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+
+#fisherman {
+    margin-left:25%;
+    background-image: url("../Assets/culture-1475557__340.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+
+}
+#maintext{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: bold;
+}
+.main-form{
+    width: 70%;
+}
+#fingerprint{
+    width: 30%;
+    margin-left: 15%;
+    /* height: 10%; */
+}
+#finger{
+    height: 70%;
+
+}
+#footer{
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+#majaribu{
+    box-sizing: border-box;
+    border: solid red 2px;
+    height: 600px;
+}
